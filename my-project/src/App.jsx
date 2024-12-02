@@ -26,7 +26,7 @@ function App() {
                         Enter Donation Amount (₹)
                     </label>
                     <input
-                        type="number"
+                        type="int"
                         id="donation"
                         value={donation}
                         onChange={(e) => setDonation(e.target.value)}
